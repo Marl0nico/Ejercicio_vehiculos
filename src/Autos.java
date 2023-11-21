@@ -5,7 +5,6 @@ public class Autos {
     public int año;
     public String color;
     //constructor
-<<<<<<< HEAD
     public Autos(String marca, String modelo, int año, String color) {
         this.marca = marca;
         this.modelo = modelo;
@@ -36,48 +35,7 @@ public class Autos {
     public void setColor(String color) {
         this.color = color;
     }
-}
-=======
-    public Autos (String nuevoNombre){
-        modelo=nuevoNombre;
-    }
-    //métodos
-    public int getAño(){
-        return año;
-    }
-    public String getModelo(){
-        return modelo;
-    }
-    public String getMarca(){
-        return marca;
-    }
-    public String getColor(){
-        return color;
-    }
-    //setters
-    public void setMarca(String newMarca){
-        this.marca =newMarca;
-    }
-    public void setModelo(String newModelo){
-        this.modelo =newModelo;
-    }
-    public void setColor(String newColor){
-        this.color=newColor;
-    }
-    public void setAño(int newAño){
-        this.año =newAño;
-        
-    }
-    
-    public void imprimirDatos(){
-        String temporalmarca = getMarca();
-        String temporalmodelo = getModelo();
-        int temporalaño = getAño();
-        String temporalcolor = getColor();
-        o
+    public void ImprimirDatos(){
+        System.out.println("Año:"+getAño()+"    Marca:"+getMarca()+"    Modelo:"+getModelo()+"  Color:"+getColor());
     }
 }
-
-
-
->>>>>>> origin/master
