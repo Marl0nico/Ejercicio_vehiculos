@@ -35,5 +35,6 @@ public class Main {
         auto1.ImprimirDatos();
         //auto2.ImprimirDatos();
         //revisar capítulo 3 de Datel
+        //deber
     }
 }
