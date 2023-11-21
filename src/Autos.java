@@ -33,5 +33,17 @@ public class Autos {
     }
     public void setAño(int newAño){
         this.año =newAño;
+        
+    }
+    
+    public void imprimirDatos(){
+        String temporalmarca = getMarca();
+        String temporalmodelo = getModelo();
+        int temporalaño = getAño();
+        String temporalcolor = getColor();
+        o
     }
 }
+
+
+
